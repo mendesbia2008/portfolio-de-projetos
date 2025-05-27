@@ -1,0 +1,245 @@
+<!-- código omitido -->
+
+</header>
+    <main class="container">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <div class="col-md-4"></div>
+                <div class="card" >
+                    <img src="img/projeto-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+        </div>
+        
+    </main>
+</body>
+
+</html>
+Copiar código
+Manterei a classe de card, class="card-img-top", porque é uma classe própria do Bootstrap. Também podemos colocar um alt: "Imagem do projeto de biblioteca virtual".
+
+index.html
+
+<!-- código omitido -->
+
+</header>
+    <main class="container">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <div class="col-md-4"></div>
+                <div class="card" >
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+        </div>
+        
+    </main>
+</body>
+
+</html>
+</html>
+</html>
+<!-- código omitido -->
+
+</header>
+    <main class="container">
+        <h2>Meus projetos</h2>
+        <div class="row">
+                <!-- Projeto 1 -->
+            <div class="col-md-4"></div>
+                <div class="card" >
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta uma lista dos meus livros favoritos, incluindo informações sobre os autores, datas de publicação e links para compra na Amazon. A página é estilizada com CSS para uma visualização agradável e usa fontes externas do Google Fonts.</p>
+                        <button type="button" class="btn btn-link">Veja o projeto</button>
+                    </div>
+                </div>
+        </div>
+        
+<!-- código omitido -->
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="..." />
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="card">
+  <img
+    src="img/projeto-1.png"
+    class="card-img-top"
+    alt="Imagem do projeto de biblioteca virtual"
+  />
+  <!-- código omitido -->
+</div>
+<div class="card">
+  <img
+    src="img/projeto-1.png"
+    class="card-img-top"
+    alt="Imagem do projeto de biblioteca virtual"
+  />
+  <div class="card-body">
+    <h5 class="card-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+    <p class="card-text">
+      Este projeto é uma página web que apresenta uma lista dos meus livros
+      favoritos, incluindo informações sobre os autores, datas de publicação e
+      links para compra na Amazon. A página é estilizada com CSS para uma
+      visualização agradável e usa fontes externas do Google Fonts.
+    </p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+<div class="col-md-4">
+  <div class="card">
+    <img
+      src="img/projeto-1.png"
+      class="card-img-top"
+      alt="Imagem do projeto de biblioteca virtual"
+    <div class="row">
+  <!-- Projeto 1 -->
+  <div class="col-md-4"></div>
+</div>
+<main>
+  <!-- código omitido -->
+</main>
+<footer class="container"></footer>
+<footer class="container">
+  <h2>Entre em contato<<footer class="container">
+  <h2>Entre em contato</h2>
+  <div>
+    <a href="https://github.com/seunomedeusuário">GitHub</a>
+  </div>
+</footer>/h2>
+<footer class="container py-5">
+  <h2>Entre em contato</h2>
+  <div>
+    <a href="https://github.com/seunomedeusuário">GitHub</a>
+  </div>
+  <p class="my-5 text-center">© Copyright 2024. Produzido por SEU NOME</p>
+</footer>
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+:root {
+  --cor-principal: #6e859f;
+  --cor-secundaria: #284260;
+  --cor-destaque: #c92bfc;
+}
+
+</footer>
+<div class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+Copiar código
+Note que este código está associado ao nosso projeto, então deve estar antes de footer e depois de main.
+
+Então, acima do footer, adicionamos o comentário <!-- Modal 1 --> para facilitar a localização do conteúdo.
+
+index.html
+
+</main>
+
+<!-- Modal 1 -->
+
+<footer class="container py-5">
+    <!-- Código omitido -->
+</footer>
+<!-- Modal 1 -->
+<div class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal-body">
+  <p>
+    O projeto é uma página web criada com HTML e CSS, destinada a exibir uma
+    coleção pessoal de livros favoritos. O objetivo é criar um ambiente virtual
+    onde seja possível compartilhar seus livros preferidos, fornecendo uma
+    descrição breve de cada um, incluindo o autor, o ano de publicação e uma
+    opção de compra.
+  </p>
+  <p>
+    A estrutura do site é baseada em HTML, que define a semântica e o layout do
+    conteúdo, enquanto o CSS é usado para estilizar a página visualmente,
+    incluindo cores, tipografia e a disposição dos elementos.
+  </p>
+  <p>
+    O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por
+    uma divisão principal (.container) que apresenta o propósito do site e a
+    coleção de livros em uma seção flexível (.livros). Cada livro é destacado em
+    seu próprio contêiner (.livro), mostrando uma imagem da capa, detalhes do
+    livro e um link de compra. O design responsivo é garantido pelo uso de uma
+    meta tag viewport e um layout flexível que se adapta a diferentes tamanhos
+    de tela.
+  </p>
+  <p>
+    O CSS personaliza o visual do site, usando variáveis para cores, estilizando
+    o texto com uma fonte importada do Google Fonts e aplicando um esquema de
+    cores suaves e botões interativos. O uso de HTML e CSS é importante pois
+    assim é possível criar um site acessível e esteticamente agradável sem a
+    necessidade de scripts complexos, com foco na usabilidade e na experiência
+    da pessoa usuária. A escolha da tipografia e do esquema de cores contribui
+    para a atmosfera acolhedora do site, incentivando a exploração da coleção de
+    livros.
+  </p>
+</div>
+<div class="modal-body">
+  <p>
+   <!-- Código omitido -->
+  </p>
+  <img
+    src="img/projeto-1.png"
+    class="img-fluid w-100"
+    alt="Imagem representativa do projeto de uma biblioteca online"
+  />
+</div>
